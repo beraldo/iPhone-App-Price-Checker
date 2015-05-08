@@ -1,8 +1,8 @@
 {
     "SMTP_HOST" : "smtp.sendgrid.net",
     "SMTP_PORT" : 465,
-    "SMTP_USERNAME" : "login",
-    "SMTP_PASSWORD" : "senha",
+    "SMTP_USERNAME" : "username",
+    "SMTP_PASSWORD" : "password",
 
     "FROM_NAME" : "App Checker",
     "FROM_EMAIL" : "user@domain.com",
