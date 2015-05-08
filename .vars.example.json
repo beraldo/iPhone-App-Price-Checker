@@ -1,0 +1,11 @@
+{
+    "SMTP_HOST" : "smtp.sendgrid.net",
+    "SMTP_PORT" : 465,
+    "SMTP_USERNAME" : "login",
+    "SMTP_PASSWORD" : "senha",
+
+    "FROM_NAME" : "App Checker",
+    "FROM_EMAIL" : "user@domain.com",
+    "TO_EMAIL" : "notification_email@domain.com",
+    "EMAIL_SUBJECT" : "[App Checker] App price reductions"
+}
