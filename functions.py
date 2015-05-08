@@ -9,6 +9,9 @@ import smtplib
 from config import *
 
 
+def getBaseDir():
+    return os.path.dirname( os.path.abspath( __file__ ) )
+#########################
 
 
 
@@ -33,6 +36,8 @@ def getPriceOfApp( url ):
 
 def loadConfig():
     global VARS_FILENAME
+
+    VARS_FILENAME = getBaseDir() + "/" + VARS_FILENAME
 
     if not os.path.isfile( VARS_FILENAME ):
         print( "File {0) does not exist".format( VARS_FILENAME ) )

@@ -7,6 +7,8 @@ import json
 from config import *
 from functions import *
 
+JSON_FILENAME = getBaseDir() + "/" + JSON_FILENAME
+
 # read olde prices
 oldPrices = {}
 if os.path.isfile( JSON_FILENAME ):
