@@ -29,7 +29,7 @@ for name, url in apps.items():
             if price == 0.0:
                 msg.append( "App {0} is FREE! (before: ${1}): {2}".format( name, oldPrice, url ) )
             else:
-                msg.append( "Price reduction for app {0}. From ${1} for ${2}: {3}!!".format( name, oldPrice, price, url ) )
+                msg.append( "Price reduction for app {0}. From ${1} for ${2}: {3}".format( name, oldPrice, price, url ) )
             
 
     jsonArr[ name ] = price
