@@ -21,7 +21,7 @@ def getPriceOfApp( url ):
     soup = BeautifulSoup( html )
 
     priceTag = soup.find( "div", { "class" : "price" } )
-    price = priceTag.string.replace( '$', '' )
+    price = re.sub('[^0-9.,]', '', priceTag.string )
 
     matches = re.match( "(gr.tis|free)", price, re.I )
 
