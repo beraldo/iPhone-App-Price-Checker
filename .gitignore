@@ -1,3 +1,6 @@
+*.pyc
+.DS_Store
 .vars.json
 __pycache__/
 prices.json
+sync.sh
